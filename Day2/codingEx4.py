@@ -5,4 +5,5 @@ weight = 84
 # BMI calculation
 BMI = (weight / (height**2))
 
-print("Your BMI is: ", BMI)
+# Displaying Bmi
+print("Your BMI is: ", round(BMI,2))
