@@ -16,3 +16,6 @@ for name in names:
     new_letter = letter.replace("[name]", name)
     with open(f"Day24/MailMergerChallenge/Mail+Merge+Project+Start/Mail Merge Project Start/Output/ReadyToSend/for{name}.txt","w") as f:
         f.write(new_letter)
+        f.close()
+f1.close()
+f2.close()  
